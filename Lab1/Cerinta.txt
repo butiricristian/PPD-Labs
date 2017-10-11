@@ -1,0 +1,3 @@
+Inmultire de matrice pe threaduri. Se dau numarul de workeri si dimensiunile celor doua matrici. Se imparte numarul
+de taskuri(aka numarul de linii ale primei matrici) la numarul de workeri si fiecare thread face un for pana la 
+N/nrWorkeri. 
