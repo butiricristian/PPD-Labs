@@ -1,0 +1,7 @@
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab5\Lab5\obj\Debug\Lab5.csprojResolveAssemblyReference.cache
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab5\Lab5\obj\Debug\Lab5.pdb

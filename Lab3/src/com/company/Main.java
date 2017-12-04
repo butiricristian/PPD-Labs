@@ -1,6 +1,7 @@
 package com.company;
 
 import java.io.IOException;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -9,7 +10,7 @@ import java.util.concurrent.ExecutionException;
 
 public class Main {
 
-    private static int[][] matrixR = new int[10000][10000];
+    private static int[][] matrixR = new int[1000][1000];
 
     public static void main(String[] args) {
         Integer n = 0, k = 0, m = 0, w = 0;
@@ -24,8 +25,8 @@ public class Main {
         w = s.nextInt();
         System.out.println(n.toString() + ", " + k.toString() + ", " + m.toString());
 
-        int[][] matrix1 = new int[10000][10000];
-        int[][] matrix2 = new int[10000][10000];
+        int[][] matrix1 = new int[n][k];
+        int[][] matrix2 = new int[k][m];
         Random randomGenerator = new Random();
 
         for (int i = 0; i < n; i++) {
@@ -48,9 +49,11 @@ public class Main {
                 r--;
             }
             else{
-                futures.add(CompletableFuture.runAsync(new Runner(i*x, (i+1)*x, m, k, matrix1, matrix2, matrixR)));
+                futures.add(CompletableFuture.runAsync(new Runner(i*x + n%w, (i+1)*x + n%w, m, k, matrix1, matrix2, matrixR)));
             }
         }
+
+        Instant i1 = Instant.now();
 
         for(CompletableFuture f : futures){
             try {
@@ -62,11 +65,15 @@ public class Main {
             }
         }
 
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                System.out.print(matrixR[i][j]);
-            }
-            System.out.println();
-        }
+        Instant i2 = Instant.now();
+
+        System.out.println(i2.minusMillis(i1.toEpochMilli()).toEpochMilli());
+
+//        for(int i=0;i<n;i++){
+//            for(int j=0;j<m;j++){
+//                System.out.print(String.valueOf(matrixR[i][j]) + " ");
+//            }
+//            System.out.println();
+//        }
     }
 }

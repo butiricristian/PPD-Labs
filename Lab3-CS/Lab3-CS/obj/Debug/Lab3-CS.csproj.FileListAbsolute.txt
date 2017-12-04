@@ -1,0 +1,7 @@
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab3-CS\Lab3-CS\bin\Debug\Lab3-CS.exe.config
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab3-CS\Lab3-CS\bin\Debug\Lab3-CS.exe
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab3-CS\Lab3-CS\bin\Debug\Lab3-CS.pdb
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab3-CS\Lab3-CS\obj\Debug\Lab3-CS.csprojResolveAssemblyReference.cache
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab3-CS\Lab3-CS\obj\Debug\Lab3-CS.csproj.CoreCompileInputs.cache
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab3-CS\Lab3-CS\obj\Debug\Lab3-CS.exe
+C:\Users\crist\OneDrive\Documents\Info@Ubb\Semestrul5\PPD\Lab3-CS\Lab3-CS\obj\Debug\Lab3-CS.pdb

@@ -21,8 +21,8 @@ public class Runner implements Runnable{
         for (int i = i1; i < i2; i++) {
             for (int j = 0; j < m; j++) {
                 int sum = 0;
-                for (int j2 = 0; j2 < k; j++) {
-                    sum += matrix1[i][j] * matrix2[j][j2];
+                for (int j2 = 0; j2 < k; j2++) {
+                    sum += matrix1[i][j2] * matrix2[j2][j];
                 }
                 matrixR[i][j] = sum;
             }

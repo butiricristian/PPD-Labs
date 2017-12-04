@@ -1,0 +1,23 @@
+Distributed Programming
+
+-no global shared memory(no global state) => communication via messages
+
+- multiple nodes
+
+    * star topology(bootleneck & if the central node fails the other nodes can;t communicate)
+    * complete graph(n(n-1)/2 links)
+    * hypercube topology( (n*logn)/2 links)
+
+- socket()
+    * issues with async, blocking..
+    * setup the network of processes to communicate with each other
+        1) who are the other processes
+        2) authentication + security
+    
+MPI (message passing interface)
+
+
+ssh-keygen
+add the public key to autorized_keys file on the server
+ssh-add private_key (on the client)
+if agent is not working => ssh-agent bash
